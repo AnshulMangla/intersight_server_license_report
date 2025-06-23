@@ -59,7 +59,7 @@ def get_api_client(api_key_id, api_secret_file = None, private_key_string = None
     return intersight.ApiClient(configuration)
 
 
-api_key = "59c84e4a16267c0001c23428/61120cd27564612d312b6cd0/6855f0367564613101be7b76"
+api_key = "api_key"
 api_key_file = "secret-key.txt"
 
 api_client = get_api_client(api_key, api_key_file)
